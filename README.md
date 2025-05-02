@@ -55,9 +55,6 @@ src/
 3. **Open in Browser**
    Visit: [http://localhost:8080](http://localhost:8080)
 
-## 📸 Screenshots (Optional)
-
-You can add screenshots in the `static/` folder and link them here:
 ```
 ![Light Mode](static/light-preview.png)
 ![Dark Mode](static/dark-preview.png)
