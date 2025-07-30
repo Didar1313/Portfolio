@@ -9,86 +9,103 @@
 </head>
 <body>
 
-  <header>
-    <div class="dark-toggle">
-      <label>
-        <input type="checkbox" id="darkToggle"> Dark Mode
-      </label>
+<header>
+  <div class="dark-toggle">
+    <label>
+      <input type="checkbox" id="darkToggle"> Dark Mode
+    </label>
+  </div>
+  <div class="profile">
+    <img src="profile.png" alt="Your Photo" />
+    <h1>Md. Didar Bhuiyan</h1>
+    <p>Computer Science & Engineering Graduate | Java & Spring Boot Developer</p>
+    <a href="#contact" class="btn">Contact Me</a>
+  </div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>Motivated Computer Science and Engineering graduate with strong foundations in software engineering, Java, and backend development. Recently completed a hands-on course in Java and Spring Boot, enhancing my ability to build scalable backend systems and RESTful APIs. I enjoy solving complex problems and building real-world applications that make an impact.</p>
+  <p><strong>Education:</strong> B.Sc. in CSE, Green University of Bangladesh (GPA: 3.42/4)</p>
+</section>
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+
+    <div class="project">
+      <h3>PrescripCare App</h3>
+      <p>A comprehensive Flutter app for managing prescriptions, reports, appointments, medicine reminders, and doctor search—all in one place.</p>
+      <a href="https://github.com/Didar1313/prescripcare" class="btn" target="_blank">View Project</a>
     </div>
-    <div class="profile">
-      <img src="profile.png" alt="Your Photo" />
-      <h1>Md. Didar Bhuiyan</h1>
-      <p>Studying Computer Science & Engineering</p>
-      <a href="#contact" class="btn">Contact Me</a>
+
+    <div class="project">
+      <h3>Open Source Contribution - Portfolio Task</h3>
+      <p>Contributed to an open-source portfolio task project, demonstrating collaborative development, clean code practices, and GitHub workflow familiarity.</p>
+      <a href="https://github.com/Didar1313/portfolioTask" class="btn" target="_blank">View Project</a>
     </div>
-  </header>
 
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>Motivated Computer Science and Engineering student with a strong foundation in software development, algorithms, and data structures. Passionate about solving problems and building innovative applications.</p>
-    <p><strong>Education:</strong> B.Sc. in CSE, Green University of Bangladesh (GPA: 3.42/4)</p>
-  </section>
-
-  <section id="projects" class="section">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="project">
-        <h3>E-commerce Web</h3>
-        <p>A Spring Boot-based eCommerce application.</p>
-        <a href="https://github.com/Didar1313/e-commerce-web" class="btn" target="_blank">View Project</a>
-      </div>
-      <div class="project">
-        <h3>Flutter eCommerce App</h3>
-        <p>A mobile eCommerce app with Firebase.</p>
-        <a href="https://github.com/Didar1313/flutter-ecommerce-app" class="btn" target="_blank">View Project</a>
-      </div>
-      <div class="project">
-        <h3>Weather App</h3>
-        <p>A weather forecasting app built with Flutter.</p>
-        <a href="https://github.com/Didar1313/flutter_weather_app" class="btn" target="_blank">View Project</a>
-      </div>
-      <div class="project">
-        <h3>Currency Exchange App</h3>
-        <p>A real-time currency converter.</p>
-        <a href="https://github.com/Didar1313/currency_exchange_app" class="btn" target="_blank">View Project</a>
-      </div>
+    <div class="project">
+      <h3>E-commerce Web</h3>
+      <p>A Spring Boot-based full-stack eCommerce web application featuring product management, cart handling, and secure login system.</p>
+      <a href="https://github.com/Didar1313/e-commerce-web" class="btn" target="_blank">View Project</a>
     </div>
-  </section>
 
-  <section id="skills" class="section">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <span>Flutter</span> <span>Dart</span> <span>Firebase</span>
-      <span>HTML & CSS</span> <span>Figma</span> 
-      <span>Java</span> <span>C, C++</span> 
-      <span>Python</span> <span>MySQL</span>
-      <span>Spring Boot</span> <span>OOP</span> 
+    <div class="project">
+      <h3>Flutter eCommerce App</h3>
+      <p>A Firebase-powered mobile shopping app with user authentication, product listing, and cart features.</p>
+      <a href="https://github.com/Didar1313/flutter-ecommerce-app" class="btn" target="_blank">View Project</a>
     </div>
-  </section>
 
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:didarbhuiyan1313@gmail.com">didarbhuiyan1313@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/md-didar-bhuiyan/" target="_blank">View Profile</a></p>
-    <p>GitHub: <a href="https://github.com/Didar1313" target="_blank">View Profile</a></p>
-    <p>Phone: +8801603522979</p>
-  </section>
+    <div class="project">
+      <h3>Weather App</h3>
+      <p>A weather forecasting app using Flutter that fetches real-time weather data from a public API.</p>
+      <a href="https://github.com/Didar1313/flutter_weather_app" class="btn" target="_blank">View Project</a>
+    </div>
 
-  <footer>
-    <p>&copy; 2025 Md. Didar Bhuiyan</p>
-  </footer>
+    <div class="project">
+      <h3>Currency Exchange App</h3>
+      <p>A real-time currency converter app with up-to-date exchange rates and a clean Flutter UI.</p>
+      <a href="https://github.com/Didar1313/currency_exchange_app" class="btn" target="_blank">View Project</a>
+    </div>
 
-  <button id="topBtn">↑</button>
+  </div>
+</section>
 
-  <script src="script.js"></script>
+<section id="skills" class="section">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <span>Java</span> <span>Spring Boot</span> <span>REST APIs</span>
+    <span>Flutter</span> <span>Dart</span> <span>Firebase</span>
+    <span>MySQL</span> <span>HTML & CSS</span> <span>OOP</span>
+    <span>Git & GitHub</span> <span>Figma</span>
+    <span>Python</span> <span>C, C++</span>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:didarbhuiyan1313@gmail.com">didarbhuiyan1313@gmail.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/md-didar-bhuiyan/" target="_blank">View Profile</a></p>
+  <p>GitHub: <a href="https://github.com/Didar1313" target="_blank">View Profile</a></p>
+  <p>Phone: +8801603522979</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Md. Didar Bhuiyan</p>
+</footer>
+
+<button id="topBtn">↑</button>
+
+<script src="script.js"></script>
 </body>
 </html>
